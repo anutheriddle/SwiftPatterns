@@ -15,6 +15,18 @@
 		DB5C65D120B4992300FA94B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB5C65CA20B4992300FA94B5 /* Main.storyboard */; };
 		DB5C65D220B4992300FA94B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65CC20B4992300FA94B5 /* AppDelegate.swift */; };
 		DB5C65D520B4998D00FA94B5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB5C65D420B4998D00FA94B5 /* Info.plist */; };
+		DB5C65DA20B49B4800FA94B5 /* chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65D920B49B4800FA94B5 /* chain.swift */; };
+		DB5C65DC20B49B7000FA94B5 /* command.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65DB20B49B7000FA94B5 /* command.swift */; };
+		DB5C65DE20B49B9000FA94B5 /* Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65DD20B49B9000FA94B5 /* Interpreter.swift */; };
+		DB5C65E020B49BBA00FA94B5 /* Iterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65DF20B49BBA00FA94B5 /* Iterator.swift */; };
+		DB5C65E220B49BD200FA94B5 /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65E120B49BD200FA94B5 /* Mediator.swift */; };
+		DB5C65E420B49BEF00FA94B5 /* Memento.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65E320B49BEF00FA94B5 /* Memento.swift */; };
+		DB5C65E620B49C1B00FA94B5 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65E520B49C1B00FA94B5 /* Observer.swift */; };
+		DB5C65E820B49C3700FA94B5 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65E720B49C3700FA94B5 /* State.swift */; };
+		DB5C65EA20B49C5300FA94B5 /* Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65E920B49C5300FA94B5 /* Strategy.swift */; };
+		DB5C65EC20B49C6B00FA94B5 /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65EB20B49C6B00FA94B5 /* Template.swift */; };
+		DB5C65EE20B49C9100FA94B5 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65ED20B49C9100FA94B5 /* Visitor.swift */; };
+		DB5C65F020B49D3700FA94B5 /* Behavioural.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB5C65EF20B49D3700FA94B5 /* Behavioural.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +60,18 @@
 		DB5C65CB20B4992300FA94B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB5C65CC20B4992300FA94B5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB5C65D420B4998D00FA94B5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DesignPattern/Info.plist; sourceTree = "<group>"; };
+		DB5C65D920B49B4800FA94B5 /* chain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chain.swift; sourceTree = "<group>"; };
+		DB5C65DB20B49B7000FA94B5 /* command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = command.swift; sourceTree = "<group>"; };
+		DB5C65DD20B49B9000FA94B5 /* Interpreter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interpreter.swift; sourceTree = "<group>"; };
+		DB5C65DF20B49BBA00FA94B5 /* Iterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Iterator.swift; sourceTree = "<group>"; };
+		DB5C65E120B49BD200FA94B5 /* Mediator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		DB5C65E320B49BEF00FA94B5 /* Memento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memento.swift; sourceTree = "<group>"; };
+		DB5C65E520B49C1B00FA94B5 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		DB5C65E720B49C3700FA94B5 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		DB5C65E920B49C5300FA94B5 /* Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strategy.swift; sourceTree = "<group>"; };
+		DB5C65EB20B49C6B00FA94B5 /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		DB5C65ED20B49C9100FA94B5 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		DB5C65EF20B49D3700FA94B5 /* Behavioural.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Behavioural.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +107,7 @@
 				DB5C65A920B4978A00FA94B5 /* DesignPatternTests */,
 				DB5C65B420B4978A00FA94B5 /* DesignPatternUITests */,
 				DB5C659320B4978800FA94B5 /* Products */,
+				DB5C65C520B4992300FA94B5 /* asset */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,7 +124,9 @@
 		DB5C659420B4978800FA94B5 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				DB5C65C520B4992300FA94B5 /* asset */,
+				DB5C65D820B49AD400FA94B5 /* Structural */,
+				DB5C65D720B49ACA00FA94B5 /* Creational */,
+				DB5C65D620B49AC100FA94B5 /* Behavioural */,
 			);
 			path = DesignPattern;
 			sourceTree = "<group>";
@@ -109,6 +136,7 @@
 			children = (
 				DB5C65AA20B4978A00FA94B5 /* DesignPatternTests.swift */,
 				DB5C65AC20B4978A00FA94B5 /* Info.plist */,
+				DB5C65EF20B49D3700FA94B5 /* Behavioural.swift */,
 			);
 			path = DesignPatternTests;
 			sourceTree = "<group>";
@@ -132,6 +160,38 @@
 				DB5C65CC20B4992300FA94B5 /* AppDelegate.swift */,
 			);
 			path = asset;
+			sourceTree = "<group>";
+		};
+		DB5C65D620B49AC100FA94B5 /* Behavioural */ = {
+			isa = PBXGroup;
+			children = (
+				DB5C65D920B49B4800FA94B5 /* chain.swift */,
+				DB5C65DB20B49B7000FA94B5 /* command.swift */,
+				DB5C65DD20B49B9000FA94B5 /* Interpreter.swift */,
+				DB5C65DF20B49BBA00FA94B5 /* Iterator.swift */,
+				DB5C65E120B49BD200FA94B5 /* Mediator.swift */,
+				DB5C65E320B49BEF00FA94B5 /* Memento.swift */,
+				DB5C65E520B49C1B00FA94B5 /* Observer.swift */,
+				DB5C65E720B49C3700FA94B5 /* State.swift */,
+				DB5C65E920B49C5300FA94B5 /* Strategy.swift */,
+				DB5C65EB20B49C6B00FA94B5 /* Template.swift */,
+				DB5C65ED20B49C9100FA94B5 /* Visitor.swift */,
+			);
+			path = Behavioural;
+			sourceTree = "<group>";
+		};
+		DB5C65D720B49ACA00FA94B5 /* Creational */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Creational;
+			sourceTree = "<group>";
+		};
+		DB5C65D820B49AD400FA94B5 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Structural;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,7 +327,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB5C65D220B4992300FA94B5 /* AppDelegate.swift in Sources */,
+				DB5C65E620B49C1B00FA94B5 /* Observer.swift in Sources */,
+				DB5C65DA20B49B4800FA94B5 /* chain.swift in Sources */,
+				DB5C65E820B49C3700FA94B5 /* State.swift in Sources */,
 				DB5C65CE20B4992300FA94B5 /* ViewController.swift in Sources */,
+				DB5C65EE20B49C9100FA94B5 /* Visitor.swift in Sources */,
+				DB5C65EA20B49C5300FA94B5 /* Strategy.swift in Sources */,
+				DB5C65E020B49BBA00FA94B5 /* Iterator.swift in Sources */,
+				DB5C65DC20B49B7000FA94B5 /* command.swift in Sources */,
+				DB5C65E420B49BEF00FA94B5 /* Memento.swift in Sources */,
+				DB5C65EC20B49C6B00FA94B5 /* Template.swift in Sources */,
+				DB5C65DE20B49B9000FA94B5 /* Interpreter.swift in Sources */,
+				DB5C65E220B49BD200FA94B5 /* Mediator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB5C65F020B49D3700FA94B5 /* Behavioural.swift in Sources */,
 				DB5C65AB20B4978A00FA94B5 /* DesignPatternTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
